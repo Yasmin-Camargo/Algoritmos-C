@@ -15,6 +15,6 @@ int main()
     scanf ("%f%f%f%f",&inicio, &fim, &litros, &passageiros);
     printf ("\nmedia do consumo em Km/L: %.2flitros",(fim-inicio)/litros);
     printf ("\nlucro (liquido) do dia.: RS%.2f", passageiros-(litros*2.70));
- 
+    return 0;
 }
 

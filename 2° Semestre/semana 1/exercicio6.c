@@ -16,6 +16,6 @@ int main()
     scanf ("%f%f%f%f",&eleitores, &nulos, &brancos, &validos);
     printf ("Percentual de representacao:\nNulos: %.2f%% \nBrancos %.2f%% \nValidos %.2f%%", (nulos*100)/eleitores, (brancos*100)/eleitores,(validos*100)/eleitores);
 
-    
+    return 0;
 }
 
